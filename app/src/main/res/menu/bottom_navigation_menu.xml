@@ -10,5 +10,10 @@
         android:enabled="true"
         android:icon="@drawable/about_icon"
         android:title="@string/about_item"/>
+    <item
+        android:id="@+id/dial"
+        android:enabled="true"
+        android:icon="@drawable/call_icon"
+        android:title="@string/call"/>
 
 </menu>

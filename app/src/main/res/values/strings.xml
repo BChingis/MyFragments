@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MyFragments</string>
+    <string name="app_name">Мой автопарк</string>
     <string name="about">О нас</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Мы молодая компания</string>
@@ -7,4 +7,9 @@
     <string name="main_page">Главная страница</string>
     <string name="main_item">Главная</string>
     <string name="about_item">О нас</string>
+    <string name="photo">photo</string>
+    <string name="email">Написать нам</string>
+    <string name="mailto">Написать нам</string>
+    <string name="open_our_site">Открыть наш сайт</string>
+    <string name="call">Позвонить</string>
 </resources>
