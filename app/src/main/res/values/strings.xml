@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyFragments</string>
+    <string name="about">О нас</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Мы молодая компания</string>
+    <string name="to_back">Назад</string>
+    <string name="main_page">Главная страница</string>
+    <string name="main_item">Главная</string>
+    <string name="about_item">О нас</string>
+</resources>
