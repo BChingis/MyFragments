@@ -10,19 +10,15 @@ class CarViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
     @SuppressLint("SetTextI18n")
     fun bind(car: Car) {
         val photoImageView: ImageView = itemView.findViewById(R.id.photo_imageview)
-        val brandTextView: TextView = itemView.findViewById(R.id.brand_text_view)
-        val modelTextView: TextView = itemView.findViewById(R.id.model_text_view)
+        val brandTextView: TextView = itemView.findViewById(R.id.brand_model_text_view)
         val engineTextView: TextView = itemView.findViewById(R.id.engine_text_view)
         val driveTextView: TextView = itemView.findViewById(R.id.drive_text_view)
         val miliageTextView: TextView = itemView.findViewById(R.id.miliage_text_view)
         val powerTextView: TextView = itemView.findViewById(R.id.power_text_view)
-        val colorTextView: TextView = itemView.findViewById(R.id.color_text_view)
         photoImageView.setImageResource(car.photo)
-        brandTextView.text = car.brand
-        modelTextView.text = car.model
+        brandTextView.text = "${car.brand} ${car.model}"
         engineTextView.text = "двигатель: ${car.engine}"
         driveTextView.text = "привод: ${car.drive}"
-        colorTextView.text = "цвет: ${car.color}"
         miliageTextView.text = "пробег: ${car.mileage}"
         powerTextView.text = "мощность: ${car.power} л.с."
 
