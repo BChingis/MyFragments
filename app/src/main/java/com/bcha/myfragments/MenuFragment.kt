@@ -22,12 +22,6 @@ class MenuFragment : Fragment() {
             Car("KIA", "RioX", R.drawable.kia, "1,6 л",
                 "передний", "коричневый", 14500, 123),
             Car("LADA", "2114", R.drawable.lada, "1,6 л",
-                "передний", "серый", 100000, 81),
-            Car("FORD", "Focus", R.drawable.ford, "1,8 л",
-                "передний", "черный", 180000, 125),
-            Car("KIA", "RioX", R.drawable.kia, "1,6 л",
-                "передний", "коричневый", 14500, 123),
-            Car("LADA", "2114", R.drawable.lada, "1,6 л",
                 "передний", "серый", 100000, 81)
         )
         val view = inflater.inflate(R.layout.fragment_menu, container, false)
